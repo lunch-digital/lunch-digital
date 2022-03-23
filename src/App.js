@@ -196,14 +196,30 @@ function App() {
             <div>
               <div>Social</div>
               <div className="text-gray-500">
-                <a href="https://www.instagram.com/lunch.digital">Instagram</a> /{" "}
-                <a href="https://www.linkedin.com/company/ineedlunch/">LinkedIn</a>
+                <a
+                  className="hover:border-gray-500 hover:border-b-[0.25vw]"
+                  href="https://www.instagram.com/lunch.digital"
+                >
+                  Instagram
+                </a>{" "}
+                /{" "}
+                <a
+                  className="hover:border-gray-500 hover:border-b-[0.25vw]"
+                  href="https://www.linkedin.com/company/ineedlunch/"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
             <div>
               <div>Email</div>
               <div className="text-gray-500">
-                <a href="mailto:info@lunch.digital">info@lunch.digital</a>
+                <a
+                  className="hover:border-gray-500 hover:border-b-[0.25vw]"
+                  href="mailto:info@lunch.digital"
+                >
+                  info@lunch.digital
+                </a>
               </div>
             </div>
           </div>
