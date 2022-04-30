@@ -1,0 +1,12 @@
+.team {
+  padding: 215px var(--section-horizontal-padding) 80px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 58px;
+}

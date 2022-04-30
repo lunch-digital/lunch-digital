@@ -1,0 +1,15 @@
+.hero {
+  min-height: 100vh;
+  padding: 66px var(--section-horizontal-padding) 84px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.description {
+  margin-top: 50px;
+
+  p {
+    font-size: var(--lg-text);
+    line-height: 1;
+  }
+}
