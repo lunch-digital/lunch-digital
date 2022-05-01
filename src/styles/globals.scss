@@ -61,13 +61,15 @@ h6 {
 
   --section-horizontal-padding: 40px;
 
-  --md-text: 32px;
+  --md-text: 22px;
   --lg-text: 48px;
-  --md-title: 48px;
+  --md-title: 18px;
   --lg-title: 26px;
 
   @media screen and (min-width: #{$screen-large}) {
+    --md-text: 32px;
     --lg-text: 80px;
+    --md-title: 48px;
     --lg-title: 72px;
   }
 }
