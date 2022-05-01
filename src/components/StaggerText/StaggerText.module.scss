@@ -1,0 +1,39 @@
+.staggerText {
+  &:hover .char {
+    animation: push-char 0.3s ease-out;
+  }
+}
+
+.char {
+  display: inline-block;
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
+
+.fullText {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@keyframes push-char {
+  0% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: translate3d(0, -25px, 0) scale3d(1.1, 1.1, 1.1);
+  }
+
+  90% {
+    transform: translate3d(0, 0, 0) scale3d(1.1, 1.1, 1.1);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}

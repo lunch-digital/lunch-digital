@@ -1,0 +1,18 @@
+.clients {
+  padding: 70px var(--section-horizontal-padding) 52px;
+  background-color: var(--grey);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clientsList {
+  width: 50%;
+  list-style-type: none;
+  font-size: var(--lg-title);
+  line-height: 1.2;
+  font-weight: 300;
+
+  li {
+    margin: 10px 0;
+  }
+}

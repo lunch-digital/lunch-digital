@@ -1,0 +1,16 @@
+export const CLIENTS = [
+	{ name: "Adobe", url: "https://adobe.com/" },
+	{ name: "Better", url: "https://better.com/" },
+	{ name: "Candy", url: "https://candy.com/" },
+	{ name: "Coast", url: "https://coastpay.com/" },
+	{ name: "Feather", url: "https://livefeather.com/" },
+	{ name: "FourSquare", url: "https://foursquare.com/" },
+	{ name: "Grammarly", url: "https://grammarly.com/" },
+	{ name: "Headway", url: "https://headway.com/" },
+	{ name: "Mantra Health", url: "https://mantrahealth.com/" },
+	{ name: "Moda Operandi", url: "https://modaoperandi.com/" },
+	{ name: "Public", url: "#" },
+	{ name: "Rap Genius", url: "https://genius.com/" },
+	{ name: "ServiceNow", url: "https://servicenow.com/" },
+	{ name: "Warby Parker", url: "https://warbyparker.com/" },
+]
