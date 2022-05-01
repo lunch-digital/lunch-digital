@@ -1,3 +1,5 @@
+@import "./abstracts";
+
 html,
 body {
   padding: 0;
@@ -60,7 +62,12 @@ h6 {
   --section-horizontal-padding: 40px;
 
   --md-text: 32px;
-  --lg-text: 80px;
+  --lg-text: 48px;
   --md-title: 48px;
-  --lg-title: 72px;
+  --lg-title: 26px;
+
+  @media screen and (min-width: #{$screen-large}) {
+    --lg-text: 80px;
+    --lg-title: 72px;
+  }
 }
