@@ -1,3 +1,4 @@
+import StaggerText from "../StaggerText"
 import { CLIENTS } from "./Clients.data"
 import styles from "./Clients.module.scss"
 
@@ -7,7 +8,7 @@ const Clients = () => (
 			{CLIENTS.map(({ name, url }, index) => (
 				<li key={index}>
 					<a href={url} target="_blank" rel="noreferrer">
-						{name}
+						<StaggerText text={name} />
 					</a>
 				</li>
 			))}
