@@ -1,3 +1,5 @@
+@import "../../styles/abstracts";
+
 .team {
   padding: 215px var(--section-horizontal-padding) 80px;
   background-color: var(--black);
@@ -6,7 +8,15 @@
 
 .members {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 58px;
+
+  @media screen and (min-width: #{$screen-medium}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: #{$screen-large}) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
