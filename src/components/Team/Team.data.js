@@ -34,18 +34,18 @@ export const TEAM_MEMBERS = [
 		avatar: person5,
 	},
 	{
-		name: "Matthew Clark",
-		role: "Partner",
+		name: "Will Mayfield",
+		role: "Founder",
 		avatar: person6,
 	},
 	{
-		name: "Matthew Clark",
-		role: "Partner",
+		name: "Lucy Bell Hall",
+		role: "Recruiter",
 		avatar: person7,
 	},
 	{
-		name: "Matthew Clark",
-		role: "Partner",
+		name: "Shimon Herman",
+		role: "Technical Recruiter",
 		avatar: person8,
 	},
 ]
