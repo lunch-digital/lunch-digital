@@ -1,9 +1,7 @@
-import LunchLogo from "../LunchLogo"
 import styles from "./Hero.module.scss"
 
 const Hero = () => (
 	<section className={styles.hero}>
-		<LunchLogo />
 		<div className={styles.description}>
 			<p>
 				We are a modern digital search firm that assembles teams for startups and growth stage
