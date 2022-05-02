@@ -1,6 +1,6 @@
 .hero {
-  min-height: 100vh;
-  padding: 66px var(--section-horizontal-padding) 84px;
+  min-height: 60vh;
+  padding: 0 var(--section-horizontal-padding) 84px;
   background-color: var(--black);
   color: var(--white);
 }
@@ -11,5 +11,19 @@
   p {
     font-size: var(--lg-text);
     line-height: 1;
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+    animation: fade-in 0.3s ease-out 0.7s forwards;
+
+    &:nth-last-of-type(1) {
+      animation-delay: 0.8s;
+    }
+  }
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
