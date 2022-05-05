@@ -1,4 +1,5 @@
 import LunchLogo from "../LunchLogo"
+import StaggerText from "../StaggerText"
 import styles from "./Footer.module.scss"
 
 const Footer = () => (
@@ -8,18 +9,20 @@ const Footer = () => (
 				<h4>Social</h4>
 				<div className={styles.links}>
 					<a href="https://www.instagram.com/lunch.digital" target="_blank" rel="noreferrer">
-						Instagram
+						<StaggerText text="Instagram" />
 					</a>{" "}
 					/{" "}
 					<a href="https://www.linkedin.com/company/ineedlunch/" target="_blank" rel="noreferrer">
-						LinkedIn
+						<StaggerText text="LinkedIn" />
 					</a>
 				</div>
 			</div>
 			<div>
 				<h4>Email</h4>
 				<div className={styles.links}>
-					<a href="mailto:info@lunch.digital">info@lunch.digital</a>
+					<a href="mailto:info@lunch.digital">
+						<StaggerText text="info@lunch.digital" />
+					</a>
 				</div>
 			</div>
 		</div>
