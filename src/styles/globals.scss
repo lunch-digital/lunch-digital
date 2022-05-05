@@ -60,17 +60,23 @@ h6 {
   --white: #ffffff;
   --grey: #e1e1e1;
 
-  --section-horizontal-padding: 40px;
+  --section-horizontal-padding: 16px;
+
+  --mobile-header-height: 45px;
 
   --md-text: 22px;
   --lg-text: 48px;
   --md-title: 18px;
   --lg-title: 26px;
+  --section-title: 18px;
 
   @media screen and (min-width: #{$screen-large}) {
+    --section-horizontal-padding: 40px;
+
     --md-text: 32px;
     --lg-text: 80px;
     --md-title: 32px;
     --lg-title: 72px;
+    --section-title: 72px;
   }
 }

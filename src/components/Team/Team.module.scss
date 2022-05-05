@@ -1,9 +1,13 @@
 @import "../../styles/abstracts";
 
 .team {
-  padding: 215px var(--section-horizontal-padding) 80px;
+  padding: 45px var(--section-horizontal-padding) 60px;
   background-color: var(--black);
   color: var(--white);
+
+  @media screen and (min-width: #{$screen-large}) {
+    padding: 215px var(--section-horizontal-padding) 80px;
+  }
 }
 
 .members {

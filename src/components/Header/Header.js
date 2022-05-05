@@ -11,9 +11,13 @@ const Header = () => {
 	const targetScaleRef = useRef(null)
 
 	const setHeaderProperties = () => {
-		// if not mobile
+		const isLargeScreen = window.innerWidth >= 992
 		const minLogoHeight = 54
 		const headerPadding = 66
+		const defaultOverlayHeight = isLargeScreen ? 200 : 45
+		const clientsActiveTop = isLargeScreen ? 60 : 18
+		const teamActiveTop = isLargeScreen ? 92 : 25
+
 		const logoWrapper = document.querySelector("#header-logo")
 		const logo = document.querySelector("#header-logo svg")
 		const hero = document.querySelector("#hero")
@@ -39,23 +43,40 @@ const Header = () => {
 		const scaleVal = scaleRef.current
 
 		// Set logo scale
-		logo.style.transform = `scale3d(${scaleVal}, ${scaleVal}, 1)`
+		logo.style.transform = isLargeScreen ? `scale3d(${scaleVal}, ${scaleVal}, 1)` : ""
 
 		// Set overlay height
 		overlayRef.current.style.height =
-			clientsClientTop > 200 || teamClientTop < 0 ? "200px" : `${Math.max(clientsClientTop, 0)}px`
+			clientsClientTop > defaultOverlayHeight || teamClientTop < 0
+				? ""
+				: `${Math.max(clientsClientTop, 0)}px`
 
 		// Set mix-blend-mode height
-		headerRef.current.style.mixBlendMode =
-			clientsClientTop < 130 && teamClientTop > 0 ? "difference" : ""
+		if (clientsClientTop < 130 && teamClientTop > 0) {
+			if (isLargeScreen) {
+				headerRef.current.style.mixBlendMode = "difference"
+				headerRef.current.style.color = ""
+			} else {
+				if (clientsClientTop < 0 && teamClientTop > 50) {
+					headerRef.current.style.mixBlendMode = ""
+					headerRef.current.style.color = "#383838"
+				} else {
+					headerRef.current.style.mixBlendMode = "difference"
+					headerRef.current.style.color = ""
+				}
+			}
+		} else {
+			headerRef.current.style.mixBlendMode = ""
+			headerRef.current.style.color = ""
+		}
 
 		// Set header height
-		headerRef.current.style.height = teamClientTop < 0 ? "200px" : ""
+		headerRef.current.style.height = teamClientTop < 0 && isLargeScreen ? "200px" : ""
 
 		// Set active section
-		if (teamClientTop < 92) {
+		if (teamClientTop < teamActiveTop) {
 			sectionTitlesItemsRef.current.style.transform = "translate3d(0, -50%, 0)"
-		} else if (clientsClientTop < 60) {
+		} else if (clientsClientTop < clientsActiveTop) {
 			sectionTitlesItemsRef.current.style.transform = "translate3d(0, 0, 0)"
 		} else {
 			sectionTitlesItemsRef.current.style.transform = ""
