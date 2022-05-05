@@ -3,7 +3,7 @@ import { TEAM_MEMBERS } from "./Team.data"
 import styles from "./Team.module.scss"
 
 const Team = () => (
-	<section className={styles.team}>
+	<section className={styles.team} id="team">
 		<div className={styles.members}>
 			{TEAM_MEMBERS.map((member, index) => (
 				<TeamMemberCard key={index} {...member} />

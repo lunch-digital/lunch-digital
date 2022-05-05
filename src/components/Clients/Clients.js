@@ -3,7 +3,7 @@ import { CLIENTS } from "./Clients.data"
 import styles from "./Clients.module.scss"
 
 const Clients = () => (
-	<section className={styles.clients}>
+	<section className={styles.clients} id="clients">
 		<ul className={styles.clientsList}>
 			{CLIENTS.map(({ name, url }, index) => (
 				<li key={index}>

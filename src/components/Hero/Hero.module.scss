@@ -1,13 +1,11 @@
 .hero {
   min-height: 60vh;
-  padding: 0 var(--section-horizontal-padding) 84px;
+  padding: 50px var(--section-horizontal-padding) 140px;
   background-color: var(--black);
   color: var(--white);
 }
 
 .description {
-  padding-top: 50px;
-
   p {
     font-size: var(--lg-text);
     line-height: 1;

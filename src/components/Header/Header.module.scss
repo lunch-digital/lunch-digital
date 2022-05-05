@@ -1,13 +1,48 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   padding: 66px var(--section-horizontal-padding) 0;
   color: var(--white);
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 200px;
+  background: linear-gradient(black, rgba(255, 255, 255, 0.01));
 }
 
 .logo {
+  display: block;
+  opacity: 0;
+  transform: translate3d(0, 50px, 0);
+  animation: fade-in 0.45s ease-out 0.25s forwards;
+
   svg {
-    opacity: 0;
-    transform: translate3d(0, 50px, 0);
-    animation: fade-in 0.45s ease-out 0.25s forwards;
+    transform-origin: top left;
+  }
+}
+
+.sectionTitles {
+  position: absolute;
+  top: 54px;
+  left: 264px;
+  font-size: var(--lg-title);
+  font-weight: 300;
+  height: 72px;
+  overflow: hidden;
+}
+
+.sectionTitlesItems {
+  transform: translate3d(0, 50%, 0);
+  transition: 0.3s ease-out;
+
+  span {
+    display: block;
   }
 }
 
