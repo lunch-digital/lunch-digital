@@ -4,8 +4,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Helvetica Neue, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans;
+  font-family: Helvetica, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue;
 }
 
 body {
@@ -70,7 +70,7 @@ h6 {
   @media screen and (min-width: #{$screen-large}) {
     --md-text: 32px;
     --lg-text: 80px;
-    --md-title: 48px;
+    --md-title: 32px;
     --lg-title: 72px;
   }
 }

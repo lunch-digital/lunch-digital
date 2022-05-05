@@ -20,7 +20,7 @@ const Header = () => {
 	return (
 		<header ref={headerRef} className={styles.header}>
 			<span className={styles.logo}>
-				<LunchLogo viewBox="0 -13 356 117" />
+				<LunchLogo />
 			</span>
 		</header>
 	)
