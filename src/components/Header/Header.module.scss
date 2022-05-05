@@ -32,10 +32,11 @@
   display: block;
   opacity: 0;
   transform: translate3d(0, 25px, 0);
-  animation: fade-in 0.45s ease-out 0.25s forwards;
+  animation: fade-in 0.45s ease-out 2.25s forwards;
 
   @media screen and (min-width: #{$screen-large}) {
     transform: translate3d(0, 50px, 0);
+    animation-delay: 0.25s;
   }
 
   svg {

@@ -1,12 +1,18 @@
+@import "../../styles/abstracts";
+
 .footer {
   min-height: 100vh;
   position: sticky;
   bottom: 0;
   background-color: var(--grey);
-  padding: 58px var(--section-horizontal-padding) 36px;
+  padding: 30px var(--section-horizontal-padding) 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (min-width: #{$screen-large}) {
+    padding: 58px var(--section-horizontal-padding) 36px;
+  }
 }
 
 .contactInfo {
