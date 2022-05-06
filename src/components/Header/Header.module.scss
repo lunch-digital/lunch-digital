@@ -7,6 +7,7 @@
   z-index: 10;
   padding: 16px var(--section-horizontal-padding) 0;
   color: var(--white);
+  will-change: mix-blend-mode;
 
   @media screen and (min-width: #{$screen-large}) {
     padding: 66px var(--section-horizontal-padding) 0;
