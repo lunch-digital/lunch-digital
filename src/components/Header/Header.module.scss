@@ -3,15 +3,13 @@
 .header {
   position: sticky;
   top: 0;
-  height: var(--mobile-header-height);
+  height: var(--header-height);
   z-index: 10;
   padding: 16px var(--section-horizontal-padding) 0;
   color: var(--white);
 
   @media screen and (min-width: #{$screen-large}) {
-    height: initial;
     padding: 66px var(--section-horizontal-padding) 0;
-    overflow: hidden;
   }
 }
 
@@ -20,12 +18,8 @@
   top: 0;
   right: 0;
   left: 0;
-  height: var(--mobile-header-height);
+  height: var(--header-height);
   background: linear-gradient(black, rgba(255, 255, 255, 0.01));
-
-  @media screen and (min-width: #{$screen-large}) {
-    height: 200px;
-  }
 }
 
 .logo {
@@ -33,6 +27,7 @@
   opacity: 0;
   transform: translate3d(0, 25px, 0);
   animation: fade-in 0.45s ease-out 2.25s forwards;
+  pointer-events: none;
 
   @media screen and (min-width: #{$screen-large}) {
     transform: translate3d(0, 50px, 0);

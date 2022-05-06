@@ -14,7 +14,7 @@
 .mobileOverlay {
   position: sticky;
   top: 0;
-  height: var(--mobile-header-height);
+  height: var(--header-height);
   background: linear-gradient(rgba(0, 0, 0, 0.2), #e1e1e1);
 
   @media screen and (min-width: #{$screen-large}) {

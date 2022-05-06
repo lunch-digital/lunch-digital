@@ -45,13 +45,16 @@ const Header = () => {
 		// Set logo scale
 		logo.style.transform = isLargeScreen ? `scale3d(${scaleVal}, ${scaleVal}, 1)` : ""
 
+		// Set hero top margin
+		hero.style.marginTop = isLargeScreen ? `${logoWrapperHeight + headerPadding - 200}px` : ""
+
 		// Set overlay height
 		overlayRef.current.style.height =
 			clientsClientTop > defaultOverlayHeight || teamClientTop < 0
 				? ""
 				: `${Math.max(clientsClientTop, 0)}px`
 
-		// Set mix-blend-mode height
+		// Set mix-blend-mode & color
 		if (clientsClientTop < 130 && teamClientTop > 0) {
 			if (isLargeScreen) {
 				headerRef.current.style.mixBlendMode = "difference"
@@ -69,9 +72,6 @@ const Header = () => {
 			headerRef.current.style.mixBlendMode = ""
 			headerRef.current.style.color = ""
 		}
-
-		// Set header height
-		headerRef.current.style.height = teamClientTop < 0 && isLargeScreen ? "200px" : ""
 
 		// Set active section
 		if (teamClientTop < teamActiveTop) {
