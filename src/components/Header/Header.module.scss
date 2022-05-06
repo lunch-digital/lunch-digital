@@ -7,7 +7,6 @@
   z-index: 10;
   padding: 16px var(--section-horizontal-padding) 0;
   color: var(--white);
-  will-change: mix-blend-mode;
 
   @media screen and (min-width: #{$screen-large}) {
     padding: 66px var(--section-horizontal-padding) 0;
@@ -20,7 +19,7 @@
   right: 0;
   left: 0;
   height: var(--header-height);
-  background: linear-gradient(black, rgba(255, 255, 255, 0.01));
+  background: linear-gradient(black, rgba(0, 0, 0, 0.01));
 }
 
 .logo {
