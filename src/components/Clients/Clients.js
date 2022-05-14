@@ -4,7 +4,6 @@ import styles from "./Clients.module.scss"
 
 const Clients = () => (
 	<section className={styles.clients} id="clients">
-		<div className={styles.mobileOverlay} />
 		<ul className={styles.clientsList}>
 			{CLIENTS.map(({ name, url }, index) => (
 				<li key={index}>

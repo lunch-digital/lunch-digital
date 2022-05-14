@@ -1,76 +1,77 @@
 @import "../../styles/abstracts";
 
 .header {
-  position: sticky;
-  top: 0;
-  height: var(--header-height);
-  z-index: 10;
-  padding: 16px var(--section-horizontal-padding) 0;
-  color: var(--white);
+	position: sticky;
+	top: 0;
+	height: var(--header-height);
+	z-index: 10;
+	padding: 16px var(--section-horizontal-padding) 0;
+	color: var(--white);
 
-  @media screen and (min-width: #{$screen-large}) {
-    padding: 66px var(--section-horizontal-padding) 0;
-  }
+	@media screen and (min-width: #{$screen-large}) {
+		padding: 50px var(--section-horizontal-padding) 0;
+	}
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: var(--header-height);
-  background: linear-gradient(black, rgba(0, 0, 0, 0.01));
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: var(--header-height);
+	background: linear-gradient(black, rgba(0, 0, 0, 0.01));
 }
 
 .logo {
-  display: block;
-  opacity: 0;
-  transform: translate3d(0, 25px, 0);
-  animation: fade-in 0.45s ease-out 2.25s forwards;
-  pointer-events: none;
+	display: block;
+	opacity: 0;
+	transform: translate3d(0, 25px, 0);
+	animation: fade-in 0.45s ease-out 2.25s forwards;
+	pointer-events: none;
 
-  @media screen and (min-width: #{$screen-large}) {
-    transform: translate3d(0, 50px, 0);
-    animation-delay: 0.25s;
-  }
+	@media screen and (min-width: #{$screen-large}) {
+		transform: translate3d(0, 50px, 0);
+		animation-delay: 0.25s;
+	}
 
-  svg {
-    transform-origin: top left;
-    height: 14px;
+	svg {
+		transform-origin: top left;
+		height: 14px;
 
-    @media screen and (min-width: #{$screen-large}) {
-      height: initial;
-    }
-  }
+		@media screen and (min-width: #{$screen-large}) {
+			height: initial;
+		}
+	}
 }
 
 .sectionTitles {
-  position: absolute;
-  top: 14px;
-  left: 74px;
-  font-size: var(--section-title);
-  font-weight: 300;
-  height: var(--section-title);
-  overflow: hidden;
+	position: absolute;
+	top: 14px;
+	left: 74px;
+	font-size: var(--section-title);
+	font-weight: 300;
+	height: var(--section-title);
+	overflow: hidden;
+	cursor: default;
 
-  @media screen and (min-width: #{$screen-large}) {
-    top: 54px;
-    left: 264px;
-  }
+	@media screen and (min-width: #{$screen-large}) {
+		top: 38px;
+		left: 264px;
+	}
 }
 
 .sectionTitlesItems {
-  transform: translate3d(0, 50%, 0);
-  transition: transform 0.3s ease-out;
+	transform: translate3d(0, 50%, 0);
+	transition: transform 0.3s ease-out;
 
-  span {
-    display: block;
-  }
+	span {
+		display: block;
+	}
 }
 
 @keyframes fade-in {
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }

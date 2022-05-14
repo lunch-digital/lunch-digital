@@ -2,48 +2,48 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Helvetica, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue;
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
 }
 
 body {
-  background-color: var(--grey);
-  color: var(--black);
+	background-color: var(--grey);
+	color: var(--black);
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
 
-  &:before,
-  &:after {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-  }
+	&:before,
+	&:after {
+		box-sizing: border-box;
+		-webkit-tap-highlight-color: transparent;
+	}
 }
 
 main {
-  position: relative;
-  z-index: 1;
-  background: var(--black);
+	position: relative;
+	z-index: 1;
+	background: var(--black);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  font-weight: 300;
+	color: inherit;
+	text-decoration: none;
+	font-weight: 300;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 p {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 h1,
@@ -52,33 +52,33 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 :root {
-  --black: #000000;
-  --white: #ffffff;
-  --grey: #e1e1e1;
+	--black: #000000;
+	--white: #ffffff;
+	--grey: #e1e1e1;
 
-  --section-horizontal-padding: 16px;
+	--section-horizontal-padding: 16px;
 
-  --header-height: 45px;
+	--header-height: 45px;
 
-  --md-text: 22px;
-  --lg-text: 48px;
-  --md-title: 18px;
-  --lg-title: 26px;
-  --section-title: 18px;
+	--md-text: 22px;
+	--lg-text: 48px;
+	--md-title: 18px;
+	--lg-title: 26px;
+	--section-title: 18px;
 
-  @media screen and (min-width: #{$screen-large}) {
-    --section-horizontal-padding: 40px;
+	@media screen and (min-width: #{$screen-large}) {
+		--section-horizontal-padding: 40px;
 
-    --header-height: 200px;
+		--header-height: 160px;
 
-    --md-text: 32px;
-    --lg-text: 80px;
-    --md-title: 32px;
-    --lg-title: 70px;
-    --section-title: 72px;
-  }
+		--md-text: 32px;
+		--lg-text: 80px;
+		--md-title: 32px;
+		--lg-title: 70px;
+		--section-title: 72px;
+	}
 }

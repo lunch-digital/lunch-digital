@@ -9,12 +9,12 @@ const Header = () => {
 	const sectionTitlesItemsRef = useRef(null)
 	const scaleRef = useRef(null)
 	const targetScaleRef = useRef(null)
+	const headerPadding = 50
 
 	const setHeaderProperties = () => {
 		const isLargeScreen = window.innerWidth >= 992
 		const minLogoHeight = 54
-		const headerPadding = 66
-		const defaultOverlayHeight = isLargeScreen ? 200 : 45
+		const defaultOverlayHeight = isLargeScreen ? 160 : 45
 		const clientsActiveTop = isLargeScreen ? 60 : 18
 		const teamActiveTop = isLargeScreen ? 92 : 25
 
@@ -46,7 +46,9 @@ const Header = () => {
 		logo.style.transform = isLargeScreen ? `scale3d(${scaleVal}, ${scaleVal}, 1)` : ""
 
 		// Set hero top margin
-		hero.style.marginTop = isLargeScreen ? `${logoWrapperHeight + headerPadding - 200}px` : ""
+		hero.style.marginTop = isLargeScreen
+			? `${logoWrapperHeight + headerPadding - defaultOverlayHeight}px`
+			: ""
 
 		// Set overlay height
 		overlayRef.current.style.height =
@@ -55,18 +57,13 @@ const Header = () => {
 				: `${Math.max(clientsClientTop, 0)}px`
 
 		// Set mix-blend-mode & color
-		if (clientsClientTop < 130 && teamClientTop > 0) {
-			if (isLargeScreen) {
+		if (!isLargeScreen && clientsClientTop < 130 && teamClientTop > 0) {
+			if (clientsClientTop < 0 && teamClientTop > 50) {
+				headerRef.current.style.mixBlendMode = ""
+				headerRef.current.style.color = "#000000"
+			} else {
 				headerRef.current.style.mixBlendMode = "difference"
 				headerRef.current.style.color = ""
-			} else {
-				if (clientsClientTop < 0 && teamClientTop > 50) {
-					headerRef.current.style.mixBlendMode = ""
-					headerRef.current.style.color = "#383838"
-				} else {
-					headerRef.current.style.mixBlendMode = "difference"
-					headerRef.current.style.color = ""
-				}
 			}
 		} else {
 			headerRef.current.style.mixBlendMode = ""
@@ -86,8 +83,13 @@ const Header = () => {
 	}
 
 	const setHeroHeight = () => {
+		const isLargeScreen = window.innerWidth >= 992
 		const header = headerRef.current
-		header.nextSibling.style.minHeight = `calc(100vh - ${header.offsetHeight - 5}px)`
+		const logoWrapper = document.querySelector("#header-logo")
+		const logoWrapperHeight = logoWrapper.clientHeight
+		header.nextSibling.style.minHeight = isLargeScreen
+			? `calc(100vh - ${logoWrapperHeight + headerPadding - 5}px)`
+			: ""
 	}
 
 	useEffect(() => {

@@ -1,41 +1,31 @@
 @import "../../styles/abstracts";
 
 .clients {
-  padding: 0 0 52px;
-  background-color: var(--grey);
+	padding: 35px var(--section-horizontal-padding) 52px;
+	background-color: var(--grey);
 
-  @media screen and (min-width: #{$screen-large}) {
-    padding: 70px var(--section-horizontal-padding) 50px;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
-.mobileOverlay {
-  position: sticky;
-  top: 0;
-  height: var(--header-height);
-  background: linear-gradient(rgba(0, 0, 0, 0.2), #e1e1e1);
-
-  @media screen and (min-width: #{$screen-large}) {
-    display: none;
-  }
+	@media screen and (min-width: #{$screen-large}) {
+		padding: 40px var(--section-horizontal-padding);
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		z-index: 20;
+		mix-blend-mode: difference;
+	}
 }
 
 .clientsList {
-  padding: 0 var(--section-horizontal-padding);
-  list-style-type: none;
-  font-size: var(--lg-title);
-  line-height: 1.2;
-  font-weight: 300;
-  z-index: 20;
+	list-style-type: none;
+	font-size: var(--lg-title);
+	line-height: 1.2;
+	font-weight: 300;
+	z-index: 20;
 
-  @media screen and (min-width: #{$screen-large}) {
-    padding: 0;
-    width: 50%;
-  }
+	@media screen and (min-width: #{$screen-large}) {
+		width: 50%;
+	}
 
-  li {
-    margin: 10px 0;
-  }
+	li {
+		margin: 10px 0;
+	}
 }
