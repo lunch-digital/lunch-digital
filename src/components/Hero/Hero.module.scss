@@ -8,7 +8,6 @@
 
 	@media screen and (min-width: #{$screen-large}) {
 		min-height: 50vh;
-		padding: 50px var(--section-horizontal-padding) 140px;
 		padding: 50px var(--section-horizontal-padding) 55px;
 	}
 }
@@ -16,13 +15,11 @@
 .description {
 	p {
 		font-size: var(--lg-text);
-		line-height: 1;
 		opacity: 0;
-		transform: translate3d(0, 25px, 0);
+		transform: translate3d(0, 0, 0);
 		animation: fade-in 0.45s ease-out 2.4s forwards;
 
 		@media screen and (min-width: #{$screen-large}) {
-			transform: translate3d(0, 50px, 0);
 			animation-delay: 0.4s;
 		}
 
@@ -37,8 +34,25 @@
 }
 
 @keyframes fade-in {
+	0% {
+		transform: translate3d(0, 25px, 0);
+	}
+
 	to {
 		opacity: 1;
-		transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0px, 0);
+	}
+}
+
+@media screen and (min-width: #{$screen-large}) {
+	@keyframes fade-in {
+		0% {
+			transform: translate3d(0, 50px, 0);
+		}
+
+		to {
+			opacity: 1;
+			transform: translate3d(0, 0px, 0);
+		}
 	}
 }

@@ -95,8 +95,8 @@ const Header = () => {
 	useEffect(() => {
 		setHeroHeight()
 		requestAnimationFrame(setHeaderProperties)
-
 		window.addEventListener("resize", setHeroHeight)
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 
 	return (
