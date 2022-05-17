@@ -7,7 +7,7 @@ const MobileLoader = () => {
 	const [isActive, setIsActive] = useState(true)
 
 	useEffect(() => {
-		if (window.innerWidth < 992) {
+		if (window.innerWidth < 768) {
 			setTimeout(() => {
 				document.body.scrollTop = 0
 				document.documentElement.scrollTop = 0

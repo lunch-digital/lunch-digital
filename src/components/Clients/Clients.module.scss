@@ -4,7 +4,7 @@
 	padding: 35px var(--section-horizontal-padding) 52px;
 	background-color: var(--grey);
 
-	@media screen and (min-width: #{$screen-large}) {
+	@media screen and (min-width: #{$screen-medium}) {
 		padding: 40px var(--section-horizontal-padding);
 		display: flex;
 		justify-content: flex-end;
@@ -21,7 +21,7 @@
 	font-weight: 300;
 	z-index: 20;
 
-	@media screen and (min-width: #{$screen-large}) {
+	@media screen and (min-width: #{$screen-medium}) {
 		width: 50%;
 	}
 

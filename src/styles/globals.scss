@@ -70,6 +70,16 @@ h6 {
 	--lg-title: 26px;
 	--section-title: 18px;
 
+	@media screen and (min-width: #{$screen-medium}) {
+		--header-height: 120px;
+
+		--md-text: 26px;
+		--lg-text: 72px;
+		--md-title: 26px;
+		--lg-title: 42px;
+		--section-title: 54px;
+	}
+
 	@media screen and (min-width: #{$screen-large}) {
 		--section-horizontal-padding: 40px;
 
@@ -78,7 +88,11 @@ h6 {
 		--md-text: 32px;
 		--lg-text: 80px;
 		--md-title: 32px;
-		--lg-title: 70px;
+		--lg-title: 64px;
 		--section-title: 72px;
+	}
+
+	@media screen and (min-width: #{$screen-extra-large}) {
+		--lg-title: 72px;
 	}
 }

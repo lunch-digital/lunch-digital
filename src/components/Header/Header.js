@@ -12,9 +12,10 @@ const Header = () => {
 	const headerPadding = 50
 
 	const setHeaderProperties = () => {
-		const isLargeScreen = window.innerWidth >= 992
-		const minLogoHeight = 54
-		const defaultOverlayHeight = isLargeScreen ? 160 : 45
+		const isLargeScreen = window.innerWidth >= 768
+		const minLogoHeight = window.innerWidth >= 992 ? 54 : 42
+		const largeOverlayHeight = window.innerWidth >= 992 ? 160 : 120
+		const defaultOverlayHeight = isLargeScreen ? largeOverlayHeight : 45
 		const clientsActiveTop = isLargeScreen ? 60 : 18
 		const teamActiveTop = isLargeScreen ? 92 : 25
 
@@ -83,7 +84,7 @@ const Header = () => {
 	}
 
 	const setHeroHeight = () => {
-		const isLargeScreen = window.innerWidth >= 992
+		const isLargeScreen = window.innerWidth >= 768
 		const header = headerRef.current
 		const logoWrapper = document.querySelector("#header-logo")
 		const logoWrapperHeight = logoWrapper.clientHeight

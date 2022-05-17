@@ -8,7 +8,7 @@
 	padding: 16px var(--section-horizontal-padding) 0;
 	color: var(--white);
 
-	@media screen and (min-width: #{$screen-large}) {
+	@media screen and (min-width: #{$screen-medium}) {
 		padding: 50px var(--section-horizontal-padding) 0;
 	}
 }
@@ -29,7 +29,7 @@
 	animation: fade-in 0.45s ease-out 2.25s forwards;
 	pointer-events: none;
 
-	@media screen and (min-width: #{$screen-large}) {
+	@media screen and (min-width: #{$screen-medium}) {
 		transform: translate3d(0, 50px, 0);
 		animation-delay: 0.25s;
 	}
@@ -38,7 +38,7 @@
 		transform-origin: top left;
 		height: 14px;
 
-		@media screen and (min-width: #{$screen-large}) {
+		@media screen and (min-width: #{$screen-medium}) {
 			height: initial;
 		}
 	}
@@ -53,6 +53,11 @@
 	height: var(--section-title);
 	overflow: hidden;
 	cursor: default;
+
+	@media screen and (min-width: #{$screen-medium}) {
+		top: 42px;
+		left: 190px;
+	}
 
 	@media screen and (min-width: #{$screen-large}) {
 		top: 38px;

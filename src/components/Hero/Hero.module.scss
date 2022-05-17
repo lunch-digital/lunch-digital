@@ -6,7 +6,7 @@
 	background-color: var(--black);
 	color: var(--white);
 
-	@media screen and (min-width: #{$screen-large}) {
+	@media screen and (min-width: #{$screen-medium}) {
 		min-height: 50vh;
 		padding: 50px var(--section-horizontal-padding) 55px;
 	}
@@ -19,14 +19,14 @@
 		transform: translate3d(0, 0, 0);
 		animation: fade-in 0.45s ease-out 2.4s forwards;
 
-		@media screen and (min-width: #{$screen-large}) {
+		@media screen and (min-width: #{$screen-medium}) {
 			animation-delay: 0.4s;
 		}
 
 		&:nth-last-of-type(1) {
 			animation-delay: 2.55s;
 
-			@media screen and (min-width: #{$screen-large}) {
+			@media screen and (min-width: #{$screen-medium}) {
 				animation-delay: 0.55s;
 			}
 		}
@@ -44,7 +44,7 @@
 	}
 }
 
-@media screen and (min-width: #{$screen-large}) {
+@media screen and (min-width: #{$screen-medium}) {
 	@keyframes fade-in {
 		0% {
 			transform: translate3d(0, 50px, 0);
