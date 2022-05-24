@@ -10,42 +10,42 @@ import person8 from "../../assets/images/person-8.png"
 export const TEAM_MEMBERS = [
 	{
 		name: "Matthew Clark",
-		role: "Partner",
+		role: "Founder",
 		avatar: person1,
 	},
 	{
 		name: "Will Mayfield",
-		role: "Founder",
+		role: "Partner",
 		avatar: person2,
 	},
 	{
-		name: "Lucy Bell Hall",
-		role: "Recruiter",
+		name: "Lucy Belle Hall",
+		role: "Principal",
 		avatar: person3,
 	},
 	{
 		name: "Shimon Herman",
-		role: "Technical Recruiter",
+		role: "Associate",
 		avatar: person4,
 	},
 	{
-		name: "Matthew Clark",
-		role: "Partner",
+		name: "Myra Sabolesky",
+		role: "Associate",
 		avatar: person5,
 	},
 	{
-		name: "Will Mayfield",
-		role: "Founder",
+		name: "Vitor Cestare",
+		role: "Senior Researcher",
 		avatar: person6,
 	},
 	{
-		name: "Lucy Bell Hall",
-		role: "Recruiter",
+		name: "Angie Bortule",
+		role: "Senior Researcher",
 		avatar: person7,
 	},
 	{
-		name: "Shimon Herman",
-		role: "Technical Recruiter",
+		name: "Matheus Quibao",
+		role: "Researcher",
 		avatar: person8,
 	},
 ]
