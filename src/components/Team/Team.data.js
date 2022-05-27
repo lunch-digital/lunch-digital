@@ -1,4 +1,4 @@
-import person1 from "../../assets/images/person-1.png"
+import matthew from "../../assets/images/Matthew.jpeg"
 import person2 from "../../assets/images/person-2.png"
 import person3 from "../../assets/images/person-3.png"
 import person4 from "../../assets/images/person-4.png"
@@ -11,7 +11,7 @@ export const TEAM_MEMBERS = [
 	{
 		name: "Matthew Clark",
 		role: "Founder",
-		avatar: person1,
+		avatar: matthew,
 	},
 	{
 		name: "Will Mayfield",

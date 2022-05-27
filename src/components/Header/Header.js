@@ -83,20 +83,8 @@ const Header = () => {
 		requestAnimationFrame(setHeaderProperties)
 	}
 
-	const setHeroHeight = () => {
-		const isLargeScreen = window.innerWidth >= 768
-		const header = headerRef.current
-		const logoWrapper = document.querySelector("#header-logo")
-		const logoWrapperHeight = logoWrapper.clientHeight
-		header.nextSibling.style.minHeight = isLargeScreen
-			? `calc(100vh - ${logoWrapperHeight + headerPadding - 5}px)`
-			: ""
-	}
-
 	useEffect(() => {
-		setHeroHeight()
 		requestAnimationFrame(setHeaderProperties)
-		window.addEventListener("resize", setHeroHeight)
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 

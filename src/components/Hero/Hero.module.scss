@@ -1,13 +1,11 @@
 @import "../../styles/abstracts";
 
 .hero {
-	min-height: calc(100vh - var(--header-height));
 	padding: 8px var(--section-horizontal-padding) 50px;
 	background-color: var(--black);
 	color: var(--white);
 
 	@media screen and (min-width: #{$screen-medium}) {
-		min-height: 50vh;
 		padding: 50px var(--section-horizontal-padding) 55px;
 	}
 }

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.10d9de98.css",
-    "main.js": "/website/static/js/main.5be96921.js",
+    "main.css": "/website/static/css/main.de02854f.css",
+    "main.js": "/website/static/js/main.429da370.js",
     "static/js/787.50aca63d.chunk.js": "/website/static/js/787.50aca63d.chunk.js",
     "static/media/person-2.png": "/website/static/media/person-2.af874dd97049bea1c019.png",
     "static/media/person-7.png": "/website/static/media/person-7.7fe8ccc0af841be0210e.png",
     "static/media/person-8.png": "/website/static/media/person-8.aec5c67298d535c1d68f.png",
     "static/media/person-3.png": "/website/static/media/person-3.91b140979365c762decb.png",
-    "static/media/person-1.png": "/website/static/media/person-1.3ac9d95b33c8e0accd81.png",
     "static/media/person-5.png": "/website/static/media/person-5.c30379117a902d8c4037.png",
     "static/media/person-6.png": "/website/static/media/person-6.d8cb96a0d43ecc5ff0fc.png",
     "static/media/person-4.png": "/website/static/media/person-4.722895f738ec537f3125.png",
+    "static/media/Matthew.jpeg": "/website/static/media/Matthew.471985b665ca01a77209.jpeg",
     "index.html": "/website/index.html",
-    "main.10d9de98.css.map": "/website/static/css/main.10d9de98.css.map",
-    "main.5be96921.js.map": "/website/static/js/main.5be96921.js.map",
+    "main.de02854f.css.map": "/website/static/css/main.de02854f.css.map",
+    "main.429da370.js.map": "/website/static/js/main.429da370.js.map",
     "787.50aca63d.chunk.js.map": "/website/static/js/787.50aca63d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d9de98.css",
-    "static/js/main.5be96921.js"
+    "static/css/main.de02854f.css",
+    "static/js/main.429da370.js"
   ]
 }

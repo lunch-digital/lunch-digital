@@ -37,6 +37,7 @@
 	svg {
 		transform-origin: top left;
 		height: 14px;
+		transform: translateX(2px);
 
 		@media screen and (min-width: #{$screen-medium}) {
 			height: initial;
