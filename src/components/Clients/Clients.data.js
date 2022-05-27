@@ -1,5 +1,7 @@
 export const CLIENTS = [
 	{ name: "Adobe", url: "https://adobe.com/" },
+	{ name: "Arena AI", url: "https://arena-ai.com/" },
+	{ name: "Assembled", url: "https://assembled.com/" },
 	{ name: "Better", url: "https://better.com/" },
 	{ name: "Candy", url: "https://candy.com/" },
 	{ name: "Coast", url: "https://coastpay.com/" },
@@ -10,6 +12,5 @@ export const CLIENTS = [
 	{ name: "Mantra Health", url: "https://mantrahealth.com/" },
 	{ name: "Moda Operandi", url: "https://modaoperandi.com/" },
 	{ name: "Rap Genius", url: "https://genius.com/" },
-	{ name: "ServiceNow", url: "https://servicenow.com/" },
 	{ name: "Warby Parker", url: "https://warbyparker.com/" },
 ]
