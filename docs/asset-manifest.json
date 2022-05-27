@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/website/static/css/main.de02854f.css",
-    "main.js": "/website/static/js/main.81d4b45d.js",
+    "main.js": "/website/static/js/main.054daf47.js",
     "static/js/787.50aca63d.chunk.js": "/website/static/js/787.50aca63d.chunk.js",
-    "static/media/person-7.png": "/website/static/media/person-7.7fe8ccc0af841be0210e.png",
-    "static/media/person-8.png": "/website/static/media/person-8.aec5c67298d535c1d68f.png",
-    "static/media/person-5.png": "/website/static/media/person-5.c30379117a902d8c4037.png",
-    "static/media/person-6.png": "/website/static/media/person-6.d8cb96a0d43ecc5ff0fc.png",
+    "static/media/vitor.jpeg": "/website/static/media/vitor.827f5c9eeea63b365ae2.jpeg",
+    "static/media/angie.jpeg": "/website/static/media/angie.b189d23567e1b9dfd8f3.jpeg",
+    "static/media/myra.jpeg": "/website/static/media/myra.293f07caa8d40ea13293.jpeg",
     "static/media/shimon.jpeg": "/website/static/media/shimon.d7e87653a5f1602e9d13.jpeg",
     "static/media/Will.jpeg": "/website/static/media/Will.4a4dca21a77286b4004a.jpeg",
+    "static/media/matheus.jpeg": "/website/static/media/matheus.2cc6122399f0c6f45f79.jpeg",
+    "static/media/natalia.jpeg": "/website/static/media/natalia.681cfeae575c6d4d4bdc.jpeg",
+    "static/media/alan.jpeg": "/website/static/media/alan.255f25e005ae516dd661.jpeg",
     "static/media/lucy.jpeg": "/website/static/media/lucy.692ce4c2298da10e6da3.jpeg",
     "static/media/Matthew.jpeg": "/website/static/media/Matthew.471985b665ca01a77209.jpeg",
     "index.html": "/website/index.html",
     "main.de02854f.css.map": "/website/static/css/main.de02854f.css.map",
-    "main.81d4b45d.js.map": "/website/static/js/main.81d4b45d.js.map",
+    "main.054daf47.js.map": "/website/static/js/main.054daf47.js.map",
     "787.50aca63d.chunk.js.map": "/website/static/js/787.50aca63d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de02854f.css",
-    "static/js/main.81d4b45d.js"
+    "static/js/main.054daf47.js"
   ]
 }
