@@ -37,12 +37,12 @@ export const TEAM_MEMBERS = [
 	},
 	{
 		name: "Vitor Cestare",
-		role: "Senior Researcher",
+		role: "Researcher",
 		avatar: person6,
 	},
 	{
 		name: "Angie Bortule",
-		role: "Senior Researcher",
+		role: "Researcher",
 		avatar: person7,
 	},
 	{
