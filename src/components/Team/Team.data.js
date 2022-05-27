@@ -1,11 +1,13 @@
 import matthew from "../../assets/images/Matthew.jpeg"
-import person2 from "../../assets/images/person-2.png"
-import person3 from "../../assets/images/person-3.png"
-import person4 from "../../assets/images/person-4.png"
+import person2 from "../../assets/images/Will.jpeg"
+import person3 from "../../assets/images/lucy.jpeg"
+import person4 from "../../assets/images/shimon.jpeg"
 import person5 from "../../assets/images/person-5.png"
 import person6 from "../../assets/images/person-6.png"
 import person7 from "../../assets/images/person-7.png"
 import person8 from "../../assets/images/person-8.png"
+import person9 from "../../assets/images/person-8.png"
+import person10 from "../../assets/images/person-8.png"
 
 export const TEAM_MEMBERS = [
 	{
@@ -47,5 +49,15 @@ export const TEAM_MEMBERS = [
 		name: "Matheus Quibao",
 		role: "Researcher",
 		avatar: person8,
+	},
+	{
+		name: "Natalia Sena",
+		role: "Researcher",
+		avatar: person9,
+	},
+	{
+		name: "Alan Garcia",
+		role: "Researcher",
+		avatar: person10,
 	},
 ]
