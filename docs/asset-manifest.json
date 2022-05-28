@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/website/static/css/main.de02854f.css",
-    "main.js": "/website/static/js/main.52933710.js",
+    "main.js": "/website/static/js/main.019e52c5.js",
     "static/js/787.50aca63d.chunk.js": "/website/static/js/787.50aca63d.chunk.js",
     "static/media/myra2.png": "/website/static/media/myra2.e94d9555bc92d5bf38c1.png",
     "static/media/natalia2.png": "/website/static/media/natalia2.6a0177bf9d58e148d7cb.png",
     "static/media/vitor.jpeg": "/website/static/media/vitor.827f5c9eeea63b365ae2.jpeg",
     "static/media/angie.jpeg": "/website/static/media/angie.b189d23567e1b9dfd8f3.jpeg",
+    "static/media/alan2.jpg": "/website/static/media/alan2.6ab68882b689f338e599.jpg",
     "static/media/lucy2.png": "/website/static/media/lucy2.1cef06c3500fa733c592.png",
     "static/media/shimon.jpeg": "/website/static/media/shimon.d7e87653a5f1602e9d13.jpeg",
     "static/media/Will.jpeg": "/website/static/media/Will.4a4dca21a77286b4004a.jpeg",
     "static/media/matheus.jpeg": "/website/static/media/matheus.2cc6122399f0c6f45f79.jpeg",
-    "static/media/alan.jpeg": "/website/static/media/alan.255f25e005ae516dd661.jpeg",
     "static/media/Matthew.jpeg": "/website/static/media/Matthew.471985b665ca01a77209.jpeg",
     "index.html": "/website/index.html",
     "main.de02854f.css.map": "/website/static/css/main.de02854f.css.map",
-    "main.52933710.js.map": "/website/static/js/main.52933710.js.map",
+    "main.019e52c5.js.map": "/website/static/js/main.019e52c5.js.map",
     "787.50aca63d.chunk.js.map": "/website/static/js/787.50aca63d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de02854f.css",
-    "static/js/main.52933710.js"
+    "static/js/main.019e52c5.js"
   ]
 }

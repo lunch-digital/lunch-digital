@@ -7,7 +7,7 @@ import person6 from "../../assets/images/vitor.jpeg"
 import person7 from "../../assets/images/angie.jpeg"
 import person8 from "../../assets/images/matheus.jpeg"
 import person9 from "../../assets/images/natalia2.png"
-import person10 from "../../assets/images/alan.jpeg"
+import person10 from "../../assets/images/alan2.jpg"
 
 export const TEAM_MEMBERS = [
 	{
