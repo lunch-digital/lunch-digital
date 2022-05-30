@@ -13,5 +13,5 @@ export const CLIENTS = [
 	{ name: "Mantra Health", url: "https://mantrahealth.com/" },
 	{ name: "Moda Operandi", url: "https://modaoperandi.com/" },
 	{ name: "Genius", url: "https://genius.com/" },
-	{ name: "Warby Parker", url: "https://warbyparker.com/" },
+	{ name: "Warby Barker", url: "https://warbyparker.com/" },
 ]
