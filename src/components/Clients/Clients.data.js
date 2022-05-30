@@ -7,6 +7,7 @@ export const CLIENTS = [
 	{ name: "Coast", url: "https://coastpay.com/" },
 	{ name: "Feather", url: "https://livefeather.com/" },
 	{ name: "FourSquare", url: "https://foursquare.com/" },
+	{ name: "Frame.io", url: "https://frame.io/" },
 	{ name: "Grammarly", url: "https://grammarly.com/" },
 	{ name: "Headway", url: "https://headway.co/" },
 	{ name: "Mantra Health", url: "https://mantrahealth.com/" },
