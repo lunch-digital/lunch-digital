@@ -6,8 +6,7 @@ import person5 from "../../assets/images/myra3.jpeg"
 import person6 from "../../assets/images/vitor.jpeg"
 import person7 from "../../assets/images/angie2.png"
 import person8 from "../../assets/images/matheus.jpeg"
-import person9 from "../../assets/images/natalia2.png"
-import person10 from "../../assets/images/alan2.jpg"
+import person9 from "../../assets/images/alan2.jpg"
 
 export const TEAM_MEMBERS = [
 	{
@@ -51,13 +50,8 @@ export const TEAM_MEMBERS = [
 		avatar: person8,
 	},
 	{
-		name: "Natalia Sena",
-		role: "Researcher",
-		avatar: person9,
-	},
-	{
 		name: "Alan Garcia",
 		role: "Researcher",
-		avatar: person10,
+		avatar: person9,
 	},
 ]

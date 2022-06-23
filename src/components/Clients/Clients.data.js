@@ -12,6 +12,6 @@ export const CLIENTS = [
 	{ name: "Headway", url: "https://headway.co/" },
 	{ name: "Mantra Health", url: "https://mantrahealth.com/" },
 	{ name: "Moda Operandi", url: "https://modaoperandi.com/" },
-	{ name: "Genius", url: "https://genius.com/" },
+	{ name: "Rap Genius", url: "https://genius.com/" },
 	{ name: "Warby Parker", url: "https://warbyparker.com/" },
 ]
