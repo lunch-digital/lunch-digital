@@ -1,8 +1,8 @@
-import matthew from "../../assets/images/Matthew.jpeg"
+import matthew from "../../assets/images/Matt2.jpeg"
 import person2 from "../../assets/images/Will.jpeg"
 import person3 from "../../assets/images/lucy2.png"
 import person4 from "../../assets/images/shimon.jpeg"
-import person5 from "../../assets/images/myra3.jpeg"
+import person5 from "../../assets/images/jason.jpeg"
 import person6 from "../../assets/images/vitor.jpeg"
 import person7 from "../../assets/images/angie2.png"
 import person8 from "../../assets/images/matheus.jpeg"
@@ -30,7 +30,7 @@ export const TEAM_MEMBERS = [
 		avatar: person4,
 	},
 	{
-		name: "Myra Sabolesky",
+		name: "Jason Lee Menard",
 		role: "Associate",
 		avatar: person5,
 	},
