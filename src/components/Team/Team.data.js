@@ -32,7 +32,7 @@ export const TEAM_MEMBERS = [
 		avatar: person4,
 	},
 	{
-		name: "Jack Totty",
+		name: "Jack Tott",
 		role: "Associate",
 		avatar: person5,
 	},
