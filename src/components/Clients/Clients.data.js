@@ -3,6 +3,7 @@ export const CLIENTS = [
 	{ name: "Arena AI", url: "https://arena-ai.com/" },
 	{ name: "Assembled", url: "https://assembled.com/" },
 	{ name: "Better", url: "https://better.com/" },
+	{ name: "Blackbird", url: "https://blackbird.xyz/" },
 	{ name: "Candy", url: "https://candy.com/" },
 	{ name: "Coast", url: "https://coastpay.com/" },
 	{ name: "Feather", url: "https://livefeather.com/" },
