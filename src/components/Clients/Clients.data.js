@@ -20,7 +20,7 @@ export const CLIENTS = [
 	{ name: "Roofstock", url: "https://roofstock.com/" },
 	{ name: "ROKT", url: "https://www.rokt.com/" },
 	{ name: "Tenet", url: "https://www.tenet.com/" },
-	{ name: "TrialSpark", url: "https://www.trialspark.com/" }
+	{ name: "TrialSpark", url: "https://www.trialspark.com/" },
 	{ name: "Underdog", url: "https://www.underdogfantasy.com/" },
 	{ name: "Vivi", url: "https://www.vivi.io/" },
 	{ name: "Warby Parker", url: "https://warbyparker.com/" },
