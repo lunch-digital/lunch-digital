@@ -21,7 +21,6 @@ export const CLIENTS = [
 	{ name: "ROKT", url: "https://www.rokt.com/" },
 	{ name: "Tenet", url: "https://www.tenet.com/" },
 	{ name: "TrialSpark", url: "https://www.trialspark.com/" }
-	{ name: "Updater", url: "https://www.updater.com/" },
 	{ name: "Underdog", url: "https://www.underdogfantasy.com/" },
 	{ name: "Vivi", url: "https://www.vivi.io/" },
 	{ name: "Warby Parker", url: "https://warbyparker.com/" },
