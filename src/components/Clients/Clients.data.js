@@ -13,6 +13,7 @@ export const CLIENTS = [
 	{ name: "Frame.io", url: "https://frame.io/" },
 	{ name: "Grammarly", url: "https://grammarly.com/" },
 	{ name: "Headway", url: "https://headway.co/" },
+	{ name: "Hume AI", url: "https://hume.ai/" },
 	{ name: "Kaiyo", url: "https://kaiyo.com/" },
 	{ name: "Mantra Health", url: "https://mantrahealth.com/" },
 	{ name: "Moda Operandi", url: "https://modaoperandi.com/" },
