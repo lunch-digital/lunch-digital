@@ -8,8 +8,8 @@ const Footer = () => (
 			<div>
 				<h4>Social</h4>
 				<div className={styles.links}>
-					<a href="https://www.instagram.com/lunch.digital" target="_blank" rel="noreferrer">
-						<StaggerText text="Instagram" />
+					<a href="https://twitter.com/lunchdotdigital" target="_blank" rel="noreferrer">
+						<StaggerText text="Twitter" />
 					</a>{" "}
 					/{" "}
 					<a href="https://www.linkedin.com/company/ineedlunch/" target="_blank" rel="noreferrer">
