@@ -4,7 +4,7 @@ const Hero = () => (
 	<section className={styles.hero} id="hero">
 		<div className={styles.description}>
 			<p>
-				We are a modern digital search firm that assembles teams for startups and growth stage
+				We are a modern executive search firm that assembles teams for startups and growth stage
 				companies.
 			</p>
 			<br /> <br />
