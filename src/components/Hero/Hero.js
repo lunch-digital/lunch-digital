@@ -8,7 +8,7 @@ const Hero = () => (
 				companies.
 			</p>
 			<br /> <br />
-			<p>We focus on product, design, and engineering.</p>
+			<p>We focus on engineering, design, and product management.</p>
 		</div>
 	</section>
 )

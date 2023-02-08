@@ -23,7 +23,7 @@ export const CLIENTS = [
 	{ name: "Standard Bots", url: "https://standardbots.com/about/" },
 	{ name: "Tenet", url: "https://www.tenet.com/" },
 	{ name: "TrialSpark", url: "https://www.trialspark.com/" },
-	{ name: "Underdog", url: "https://www.underdogfantasy.com/" },
+	{ name: "Underdog Fantasy", url: "https://www.underdogfantasy.com/" },
 	{ name: "Vivi", url: "https://www.vivi.io/" },
 	{ name: "Warby Parker", url: "https://warbyparker.com/" },
 	{ name: "Whatnot", url: "https://whatnot.com/" },
