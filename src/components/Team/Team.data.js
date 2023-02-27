@@ -1,4 +1,4 @@
-import matthew from "../../assets/images/Mattheadshot.jpeg"
+import matthew from "../../assets/images/Matt headshot.jpeg"
 import person2 from "../../assets/images/Will4.jpg"
 import person3 from "../../assets/images/Lucy5.jpg"
 import person4 from "../../assets/images/jack5.jpg"
