@@ -1,4 +1,4 @@
-import matthew from "../../assets/images/Matt headshot.jpeg"
+import matthew from "../../assets/images/MattHeadshot.jpeg"
 import person2 from "../../assets/images/Will4.jpg"
 import person3 from "../../assets/images/Lucy5.jpg"
 import person4 from "../../assets/images/jack5.jpg"
@@ -8,7 +8,6 @@ import person7 from "../../assets/images/angie2.png"
 import person8 from "../../assets/images/matheus.jpeg"
 import person9 from "../../assets/images/alan2.jpg"
 import person10 from "../../assets/images/geo4.jpg"
-
 
 export const TEAM_MEMBERS = [
 	{

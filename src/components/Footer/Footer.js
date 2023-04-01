@@ -8,7 +8,7 @@ const Footer = () => (
 			<div>
 				<h4>Social</h4>
 				<div className={styles.links}>
-					<a href="https://twitter.com/lunchdotdigital" target="_blank" rel="noreferrer">
+					<a href="https://twitter.com/lunch_digital" target="_blank" rel="noreferrer">
 						<StaggerText text="Twitter" />
 					</a>{" "}
 					/{" "}
